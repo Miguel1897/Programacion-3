@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: #f8f9fa;
+}
+
+/* Añade cualquier otro estilo global aquí */
+
+/* Ajustes específicos para el Carousel */
+.carousel-item img {
+  max-height: 500px; /* Ajusta la altura máxima según tu preferencia */
+  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+}

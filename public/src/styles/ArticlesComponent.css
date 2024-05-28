@@ -1,0 +1,8 @@
+.article-card {
+  margin-top: 0; /* Eliminar margen superior */
+}
+
+/* Opcional: ajustar el espacio entre las tarjetas */
+.article-card + .article-card {
+  margin-top: 20px; /* Ajusta el espacio entre las tarjetas */
+}
